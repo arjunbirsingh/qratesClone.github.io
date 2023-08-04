@@ -1,0 +1,349 @@
+@font-face {
+  font-family: "Qratesis";
+  font-weight: normal;
+  src: url(https://assets.qrates.com/assets/QratesBasis-Medium-55ff4dabfa3c01d0aad0cc97cc710c92f038b4af85e8a8da69dbf4704e03a163.eot);
+  src: url(https://assets.qrates.com/assets/QratesBasis-Medium-55ff4dabfa3c01d0aad0cc97cc710c92f038b4af85e8a8da69dbf4704e03a163.eot)
+      format("eot"),
+    url(https://assets.qrates.com/assets/QratesBasis-Medium-bb40ecad094f0b20083df6c6eaa63a6a5ef661c65b62e49c74c72fd50f3464a2.woff2)
+      format("woff2"),
+    url(https://assets.qrates.com/assets/QratesBasis-Medium-dd88e2c1f67fb366d795d006038343c208bf162743841ff0e553a594b6b9280d.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/QratesBasis-Medium-69c5b04c184fe715c23fd1e2abf45e609eb289254550b641193ccef4809c76de.ttf)
+      format("ttf");
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  font-weight: 400;
+  src: url(https://assets.qrates.com/assets/QratesBasis-Regular-15a9556ad6d7b96211a55e4c90d3f4d08b5e362a1d2c8a9188ef0fa30020c5f9.eot);
+  src: url(https://assets.qrates.com/assets/QratesBasis-Regular-15a9556ad6d7b96211a55e4c90d3f4d08b5e362a1d2c8a9188ef0fa30020c5f9.eot)
+      format("eot"),
+    url(https://assets.qrates.com/assets/QratesBasis-Regular-50bd1d58d45d752f1e2ff73855542634e06640c1bc4837f1b200d67c859623db.woff2)
+      format("woff2"),
+    url(https://assets.qrates.com/assets/QratesBasis-Regular-0bfd2f449564951bfec85103145467073b6b156a48ef834f637b7cefbf53d6d5.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/QratesBasis-Regular-55dd4350cb6fdee8c8efd279f539ece3228d1e672bc37b8608cb850afea73276.ttf)
+      format("ttf");
+}
+
+@font-face {
+  font-family: "QratesBasis";
+  font-weight: 200;
+  src: url(https://assets.qrates.com/assets/QratesBasis-Light-582cc82236dea6fbd59781ef95ef4081e401fc735bebd576e78224725c638d5a.eot);
+  src: url(https://assets.qrates.com/assets/QratesBasis-Light-582cc82236dea6fbd59781ef95ef4081e401fc735bebd576e78224725c638d5a.eot)
+      format("eot"),
+    url(https://assets.qrates.com/assets/QratesBasis-Light-d26c1bbbf0ce954dfa0bd9d8a5b80083d5dbdeca76259ca99feb5a743dd78593.woff2)
+      format("woff2"),
+    url(https://assets.qrates.com/assets/QratesBasis-Light-7e1ca29f5ef7035112a92fd0ba8086bfd44a54e13a4569b04454fb7f0f07ae1c.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/QratesBasis-Light-ad653583e48fae85b5399aa5d787b4fa4d6f34b760f419bf344608a478118020.ttf)
+      format("ttf");
+}
+
+@font-face {
+  font-family: "FK Roman";
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Black-f2d71f437d7389f56204fa0f2bd80df9de79cc0c9457fc90157c0905240be06c.otf);
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Black-c57ac717a1cc1a59ee153f2d4eefbbd8ce2518c5c6b431a40730de0440b338ab.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/FKRomanDisplay-Black-6966d534eb405921b01c11862dfc6773d43b0904469d4e2d5079f619d87329fa.ttf)
+      format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FK Roman";
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-ba195f27491f6ca5bc1e78a3c911a29fb5c0ea77e67a4def95b28e0f30a3ff32.otf);
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-80050c87c3f5ebcf7bc6143dc526741d08f5f20fd763978d96dd8d039f505c59.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-b6e3f79515a76777bd4e2a2f74a694a06b022d738afec6429c99503254327f81.ttf)
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "FK Roman";
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-ba195f27491f6ca5bc1e78a3c911a29fb5c0ea77e67a4def95b28e0f30a3ff32.otf);
+  src: url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-80050c87c3f5ebcf7bc6143dc526741d08f5f20fd763978d96dd8d039f505c59.woff)
+      format("woff"),
+    url(https://assets.qrates.com/assets/FKRomanDisplay-Bold-b6e3f79515a76777bd4e2a2f74a694a06b022d738afec6429c99503254327f81.ttf)
+      format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+* {
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Qratesis", "Noto Sans JP", sans-serif;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+button,
+li,
+a {
+  cursor: pointer;
+}
+a {
+  color: inherit;
+}
+button {
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0.5rem;
+  border: 2px solid black;
+}
+img {
+  max-width: 100%;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 0.7rem 0.5rem;
+  padding-inline: 1rem;
+}
+nav .part1 > img {
+  width: 30px;
+  height: 45px;
+}
+nav box-icon {
+  padding-left: 1rem;
+}
+.cont1 {
+  padding-top: 100px;
+}
+.cont1 button {
+  margin-bottom: 24px;
+}
+.cont1 .part1 {
+  padding: 1.6rem;
+  padding-bottom: 3rem;
+}
+.cont1 h1 {
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 45px;
+}
+.cont1 h1:nth-of-type(2) {
+  position: relative;
+  padding-bottom: 1.5rem;
+}
+.cont1 h1:nth-of-type(2)::after {
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  max-width: 300px;
+  height: 15px;
+  background: url(https://assets.qrates.com/assets/common/current/top-current-9f2aabd8a4603f185f6b1dd4c969d66e274ce5e58e5ce65cc977fc1b9f24c628.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  filter: brightness(0) contrast(100);
+}
+.cont1 .part1 p {
+  font-size: 21px;
+  padding-top: 1.6rem;
+}
+.cont1 .part2 {
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto;
+  position: relative;
+  overflow: hidden;
+  padding-block: 2rem;
+}
+.cont1 img {
+  width: 70vw;
+  border: 3px solid black;
+}
+.cont1 #img1 {
+  justify-self: self-end;
+  transform: rotate(7deg);
+}
+.cont1 #img2 {
+  justify-self: self-start;
+  transform: rotate(-7deg);
+  margin-top: -10%;
+}
+.cont1 #img3 {
+  border: none;
+  width: 25vw;
+  position: absolute;
+  bottom: 20%;
+  right: 1rem;
+}
+.cont2,
+.cont3 {
+  padding-block-start: 2rem;
+  text-align: center;
+}
+.cont2 > h2,
+.cont3 > h2 {
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+}
+.cards img {
+  width: 70vw;
+  margin: auto;
+  margin-block: 2rem;
+}
+.cards h3 {
+  margin-block: 1rem;
+  font-size: 36px;
+}
+.cards p {
+  margin-block-end: 2rem;
+}
+.cont2 .card1 {
+  background-color: #497775;
+  padding-inline: 1.3rem;
+  padding-block: 60px;
+}
+.cont2 .card2 {
+  background-color: #81836c;
+  padding-inline: 1.3rem;
+  padding-block: 60px;
+}
+.cards .clickable {
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  padding: 0.7rem 0.5rem;
+}
+.cont3 > p {
+  margin: auto;
+  margin-bottom: 3rem;
+  font-size: 18px;
+  width: 70%;
+}
+.cont3 .card1 {
+  background-color: #81836c;
+  padding-inline: 1.3rem;
+  padding-block: 60px;
+}
+.cont3 .card2 {
+  background-color: rgb(255, 248, 4);
+  padding-inline: 1.3rem;
+  padding-block: 60px;
+}
+#learnmore {
+  width: 100%;
+}
+.cont3 .card3 {
+  padding-block: 2rem;
+  background-color: black;
+  color: white;
+  padding-inline: 2rem;
+  line-height: 25px;
+  font-size: 18px;
+}
+.cont3 .card3 p {
+  margin-block: 2rem;
+}
+.cont4 {
+  padding: 1rem;
+  text-align: center;
+}
+.cont4 button {
+  margin-block: 2rem;
+}
+.cont4 h2 {
+  font-size: 36px;
+  -webkit-text-stroke: black;
+  -webkit-text-stroke-width: 1px;
+  color: white;
+}
+.cont4 .part1 p {
+  margin-block: 1rem;
+  font-size: 18px;
+}
+.cont4 img {
+  width: 60vw;
+  transform: rotate(-6deg);
+  border: 2px solid black;
+  margin-block: 1rem;
+}
+.cont4 #learnmore {
+  border-radius: 20px;
+}
+.accordion {
+  text-align: left;
+  margin-block: 2rem;
+  position: relative;
+}
+.accordion h3 {
+  font-size: 22px;
+  color: white;
+  background-color: black;
+  padding: 1.5rem;
+}
+.accordion .list {
+  border: 2px solid black;
+  padding: 1.4rem;
+  border-top: none;
+}
+.accordion p {
+  font-size: 19px;
+  margin-top: 2rem;
+  display: none;
+  font-weight: 100;
+}
+.accordion h4 {
+  font-size: 19px;
+  pointer-events: none;
+  font-weight: 100;
+}
+.accordion #arrow {
+  position: absolute;
+  right: 1.5rem;
+}
+.cont5 #part1 {
+  background-color: black;
+  text-align: center;
+  padding-block: 2rem;
+  color: white;
+  padding-inline: 1rem;
+}
+.cont5 button {
+  font-weight: 800;
+  margin-block: 2rem;
+}
+.cont5 h3 {
+  font-size: 36px;
+  margin-bottom: 2rem;
+}
+.cont5 p {
+  font-size: 18px;
+}
+.cont5 #learnmore {
+  max-width: 140px;
+  border-radius: 20px;
+}
+
+.cont5 #part2 {
+  background-color: rgb(226, 128, 255);
+  padding: 1rem;
+  text-align: center;
+}
+.cont5 #part2 img {
+  border: 3px solid black;
+}
+.cont5 #part2 #learnmore{
+    background-color: black;
+    color: white;
+}
