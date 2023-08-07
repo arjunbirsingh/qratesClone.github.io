@@ -104,6 +104,9 @@ button {
 img {
   max-width: 100%;
 }
+.show{
+  display: block !important;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -302,6 +305,7 @@ nav box-icon {
   margin-top: 2rem;
   display: none;
   font-weight: 100;
+  /* transition: all 1s; */
 }
 .accordion h4 {
   font-size: 19px;
@@ -346,4 +350,84 @@ nav box-icon {
 .cont5 #part2 #learnmore{
     background-color: black;
     color: white;
+}
+.cont6{
+  text-align: center;
+}
+.cont6Heading{
+  background-color: white;
+  padding-inline: 1rem;
+}
+.cont6 .pageChanger{
+  background-color: rgb(255, 248, 4);
+  padding: 3rem 1.5rem;
+}
+.cont6Heading{
+  padding-block: 3rem;
+}
+.cont6Heading>button{
+  margin-bottom: 0 2rem;
+}
+.cont6Heading h3{
+  font-size: 46px;
+  margin-bottom: 1rem;
+}
+.cont6Heading p{
+  font-size: 18px;
+  margin-bottom: 2rem;
+}
+.cont6Heading #learnmore{
+  border-radius: 20px;
+}
+.cont6 .imagesInPageChanger{
+  position: relative;
+}
+.cont6 #eyes{
+  width: 112px;
+  position: absolute;
+  z-index: 100;
+  top: -58px;
+  right: 1rem;
+}
+.cont6 #guy{
+  border: 3px solid black;
+  margin-bottom: 2rem;
+}
+.cont6 .writtenStuff{
+  text-align: left;
+  font-size: 22px;
+}
+.cont6 .writtenStuff button{
+  margin-bottom: 2rem;
+}
+.cont6 .writtenStuff p{
+  margin-bottom: 2rem;
+}
+.cont6 #link{
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
+.cont6 .clickables{
+  background-color: transparent;
+  border-radius: 50%;
+  padding: 0.7rem 1.0rem;
+}
+.bgblack{
+  background-color: black !important;
+  color: white;
+}
+footer{
+  background-color: black;
+  padding: 2rem 1rem;
+}
+footer ul{
+  color: white;
+  font-size: 15px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  text-transform: capitalize;
+  margin-block: 2rem 1rem;
 }
