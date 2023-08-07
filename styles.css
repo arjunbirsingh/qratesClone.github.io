@@ -392,6 +392,9 @@ nav box-icon {
 .cont6 #guy{
   border: 3px solid black;
   margin-bottom: 2rem;
+  object-fit: cover;
+  height: 85vh;
+  width: 100%;
 }
 .cont6 .writtenStuff{
   text-align: left;
