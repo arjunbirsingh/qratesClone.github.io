@@ -92,6 +92,10 @@ a {
 a {
   color: inherit;
 }
+ul{
+  display: flex;
+  list-style-type: none;
+}
 button {
   background-color: white;
   color: black;
@@ -113,6 +117,20 @@ nav {
   align-items: center;
   padding-block: 0.7rem 0.5rem;
   padding-inline: 1rem;
+}
+nav .part1{
+  display: flex;
+}
+nav ul{
+  display: none;
+  margin-left: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+nav li{
+  padding-inline-start: 1rem;
+  font-size: 16px;
+  font-weight: 600;
 }
 nav .part1 > img {
   width: 30px;
@@ -357,6 +375,9 @@ nav box-icon {
 .cont6Heading{
   background-color: white;
   padding-inline: 1rem;
+}
+.cont6Heading #learnmore{
+  max-width: 170px;
 }
 .cont6 .pageChanger{
   background-color: rgb(255, 248, 4);

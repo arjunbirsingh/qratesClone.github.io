@@ -10,6 +10,115 @@
       href="https://assets.qrates.com/assets/favicon-464723be2d05581b9c22d0d936c3e91417934e48d4894469488a5fc11793bc73.ico"
     />
     <link rel="stylesheet" href="styles.css" />
+    <style>
+      @media screen and (min-width:1000px){
+        nav ul{
+          display: flex;
+        }
+        .cont1{
+          display: flex;
+          border-bottom: 2px solid black;
+        }
+        .cont1 .part1{
+          width: 50%;
+          z-index: 100;
+        }
+        .cont1 .part1 h1{
+          font-size: 64px;
+          line-height: 60px;
+        }
+        .cont1 .part2{
+          width: 50%;
+          overflow: visible;
+        }
+        .cont1 .part2 #img1{
+          width: 40vw;
+        }
+        .cont1 #img1{
+          position: relative;
+          left: -20%;
+          z-index: 99;
+        }
+        .cont1 #img2{
+          position: relative;
+          left: -70%;
+          top: -10%;
+          width: 40vw;
+        }
+        .cont1 #img3{
+          bottom: 10%;
+        }
+        .cont2>h2{
+          padding-block: 4rem;
+          font-size: 50px;
+        }
+         .cards{
+          display: flex;
+          flex-direction: row;
+        }
+         .card1,  .card2{
+          border: 4px solid black;
+        }
+         .card1{
+          border-right: none;
+        }
+         .cards img{
+          max-width: 300px;
+          max-height: 250px;
+        }
+         .card2 img{
+          margin-bottom: 4.8rem;
+        }
+        .cont3 .cards #learnmore{
+          width: 400px;
+        }
+        .cont3 .card1,.cont3 .card2{
+          width: 50%;
+        }
+        .cont3 .card1 img{
+          height: 250px;
+          margin-bottom: 4.8rem;
+        }
+        .cont3 .card3{
+          display: flex;
+          text-align: left;
+          gap: 5rem;
+          padding-inline: 10%;
+        }
+        .cont4{
+          display: flex;
+        }
+        .cont4 .part1,.cont4 .part2{
+          width: 50%;
+          padding-inline: 5%;
+        }
+        .cont4 .part1 img{
+          width: 70%;
+        }
+        .cont4 .part1 button{
+          max-width: 50%;
+        }
+        .cont4 .part2 .accordion{
+          margin-block: 0;
+        }
+        .cont5{
+          display: flex;
+        }
+        .cont5 #part1, .cont5 #part2{
+          width: 50%;
+        }
+        .cont5 #part1 img{
+          margin-bottom: 3.3rem;
+        }
+        .cont6 .pageChanger{
+          display: flex;
+        }
+        .cont6 .pageChanger .imagesInPageChanger,.cont6 .pageChanger .writtenStuff{
+          width: 50%;
+          padding-inline: 2rem;
+        }
+      }
+    </style>
   </head>
 
   <body>
@@ -20,6 +129,12 @@
           alt="qrateslogo"
           class="logo"
         />
+        <ul>
+          <li>RECORDS & CASSETTES ↓</li>
+          <li>DISCOVER ↓</li>
+          <li>FOR ARTISTS ↓</li>
+          <li>OUR COMPANY ↓</li>
+        </ul>
       </div>
       <div class="part2">
         <box-icon name="search" size="30px"></box-icon>
