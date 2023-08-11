@@ -9,6 +9,7 @@
       type="image/x-icon"
       href="https://assets.qrates.com/assets/favicon-464723be2d05581b9c22d0d936c3e91417934e48d4894469488a5fc11793bc73.ico"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
     <link rel="stylesheet" href="styles.css" />
     <style>
       @media screen and (min-width:1000px){
@@ -122,7 +123,9 @@
   </head>
 
   <body>
-    <nav>
+    <div id="main">
+      <div id="mousetrail"></div>
+      <nav>
       <div class="part1">
         <img
           src="https://assets.qrates.com/packs/media/logos/qrates-logo-6b1bd403.svg"
@@ -442,7 +445,8 @@
         <li>Privacy policy</li>
         <li>legal information</li>
       </ul>
-    </footer>
+    </footer></div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </body>

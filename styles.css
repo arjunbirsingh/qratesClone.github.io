@@ -104,6 +104,42 @@ button {
   font-weight: 500;
   padding: 0.5rem;
   border: 2px solid black;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+#mousetrail{
+  width: 20px;
+  height: 20px;
+  background-color: #497775;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.1s all;
+  transform: translate(-50%,-50%);
+  mix-blend-mode: difference;
+  z-index: 10000;
+  pointer-events: none;
+}
+.list:hover{
+  cursor: pointer;
+}
+button::after{
+  content: "";
+  width: 100%;
+  height: 100%;
+  /* background-color: rgb(255, 248, 4);; */
+  background-color: #81836c;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  transition: all 0.5s;
+}
+button:hover::after{
+  left: 0;
 }
 img {
   max-width: 100%;
@@ -380,8 +416,9 @@ nav box-icon {
   max-width: 170px;
 }
 .cont6 .pageChanger{
-  background-color: rgb(255, 248, 4);
+  background-color: hsl(58, 100%, 51%);
   padding: 3rem 1.5rem;
+  transition: all 1s;
 }
 .cont6Heading{
   padding-block: 3rem;
