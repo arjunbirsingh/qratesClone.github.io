@@ -12,7 +12,6 @@ function mousetrailMover(){
   mousetrail.style.left=`${x}px`;
   // check=`${y}px`;
 }
-mousetrailMover();
 document.addEventListener("mousemove",mousetrailMover);
 let body = document.body;
 let toggle = 0;
