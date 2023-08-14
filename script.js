@@ -6,6 +6,7 @@ const scroll = new LocomotiveScroll({
 var x,y,check;
 let mousetrail=document.querySelector("#mousetrail");
 function mousetrailMover(){
+  mousetrail.style.display="block";
   x=event.clientX;
   y=event.clientY;
   mousetrail.style.top=`${y}px`;

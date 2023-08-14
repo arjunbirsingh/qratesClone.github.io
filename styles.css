@@ -110,6 +110,7 @@ button {
   transition: all 0.5s;
 }
 #mousetrail{
+  display: none;
   width: 20px;
   height: 20px;
   background-color: #497775;
