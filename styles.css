@@ -115,7 +115,7 @@ button {
   height: 20px;
   background-color: #497775;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   transition: 0.1s all;
